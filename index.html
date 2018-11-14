@@ -34,49 +34,7 @@
         <div></div>
       </div>
     </div>
-    <!-- 分类按钮 -->
-    <div class="fl-icon-panel">
-    </div>
-    <div class="fl-icon"></div>
 
-    <!-- 直播区域 -->
-    <a href="living_commtaq.jsp?n=">
-      <div class="zb-icon">
-        <span></span>
-      </div>
-    </a>
-    <!-- 专题区域 -->
-    <div class="zt-icon-p" id="fx"></div>
-    <!-- 右边文字区域  新闻问答详情页右侧-->
-    <div class="right-cont" id="news_right_cont">
-      <a href="newsDetail_forward_">进入原新闻</a>
-    </div>
-    <!-- 右边文字区域  话题问答详情页右侧-->
-    <div class="right-cont" id="ask_right_cont">
-      <a href="asktopic_detail_">进入原话题</a>
-    </div>
-    <!-- 政务相关-->
-    <div class="politics_head politics_head_download">
-      <a class="txt" id="moblink_top_wz_xiazai" moblink-featured="" data-moblink="demo/a?contType=1&amp;contId=">下载APP</a>
-      <a class="icon icon_search" href="govSearch.jsp"></a>
-    </div>
-    <div class="politics_head politics_head_ask">
-      <a class="txt" id="moblink_top_tiwen" moblink-featured="" data-moblink="demo/a?contType=&amp;contId=">去提问</a>
-      <a class="icon icon_share"></a>
-    </div>
-    <div class="politics_head politics_head_unlogin">
-      <a class="politics_txt" onclick="registerwdsshow()">注册</a>/<a class="politics_txt" onclick="lgwdsshow()">登录</a>
-    </div>
-    <div class="politics_head politics_head_login">
-      <a class="txt" id="moblink_top_xiazai" moblink-featured="" data-moblink="demo/a?contType=1&amp;contId=">下载APP</a>
-      <a class="icon icon_header" href="modifyInfo.jsp"></a>
-    </div>
-    <!-- 右边图片区域 -->
-    <div id="ask_app_down02" data-url="//m.thepaper.cn/download?id=3">
-      <a class="right-img" style="position:fixed;" href="javascript:allPageAppdowncheck('ask_app_down02','',7);" id="moblink_topichead_" moblink-featured="" data-moblink="demo/a?contType=7&amp;contId=">
-			            打开澎湃客户端提问
-			      </a>
-    </div>
   </div>
   <!-- 滑动菜单start -->
   <div class="channeltab-panelbg">
@@ -152,58 +110,7 @@
 
       initChannelTab();
 
-      $(".list_lanmu").click(function() {
-        if ($(".lanmu_q").css("display") == "none") {
-          $(".list_lanmu").addClass("bt_cur");
-          $(".lanmu_q").css('display', 'block');
-        } else {
-          $(".list_lanmu").removeClass("bt_cur");
-          $(".lanmu_q").css('display', 'none');
-        }
-      });
-
-      $(".lanmu_shouqi").click(function() {
-        $(".list_lanmu").removeClass("bt_cur");
-        $(".lanmu_q").css('display', 'none');
-      });
-
-      var tbd = $("#lanmu_tb").filter(function(index) {
-        return $("#lanmu_tb", this).css("display") != "none";
-      });
-      var tbdf = $("#lanmu_tb:eq(0)");
-      var tbdl = $(".lanmu_tblast"); //var tbdl=$("#lanmu_tb").last();
-      $(".lanmu_p").click(function() {
-        if (tbd.prev("#lanmu_tb").length > 0) {
-          tbd.css('display', 'none');
-          tbd.prev("#lanmu_tb").css('display', '');
-          tbd = tbd.prev("#lanmu_tb");
-        } else {
-          tbd.css('display', 'none');
-          tbdl.css('display', '');
-          tbd = tbdl;
-        }
-      });
-
-      $(".lanmu_n").click(function() {
-        if (tbd.next("#lanmu_tb").length > 0) {
-          tbd.css('display', 'none');
-          tbd.next("#lanmu_tb").css('display', '');
-          tbd = tbd.next("#lanmu_tb");
-        } else {
-          tbd.css('display', 'none');
-          tbdf.css('display', '');
-          tbd = tbdf;
-        }
-      });
-
-      $(".list_lm a").click(function() {
-        $(this).addClass("on");
-        $(this).siblings().removeClass("on");
-        var sliderId = $(this).index();
-        $("#slider" + sliderId).css("display", "block");
-        $("#slider" + sliderId).siblings(".sliderchl").css("display", "none");
-      });
-
+    
     });
   </script>
 
