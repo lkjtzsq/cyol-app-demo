@@ -102,7 +102,7 @@ span.hot_ask{display: block;width: 26px;height: 26px;}
 .tiptitleNO{float:left;margin-left:15px;width:80px;line-height:36px;font-size:18px;text-align:center;cursor:pointer;border:1px solid #ccc;color:#248bf2;}
 
 .back-to {bottom: 52px;right:20px;position:fixed;z-index:999;display:none;}
-.back-to .back-top {background: url(//file.thepaper.cn/wap/v3/img/back_top.png) no-repeat scroll 0 0 transparent;background-size:41px 41px !important;display: block;float: right;height:41px;outline: 0 none;width: 41px;border:1px solid #cccccc;border-radius: 4px;opacity: 0.8;}
+.back-to .back-top {background: url(./img/back_top.png) no-repeat scroll 0 0 transparent;background-size:41px 41px !important;display: block;float: right;height:41px;outline: 0 none;width: 41px;border:1px solid #cccccc;border-radius: 4px;opacity: 0.8;}
 .back-to .back-top:hover {background-position: 0 0;opacity: 0.6;}
 
 /*1.5*/
