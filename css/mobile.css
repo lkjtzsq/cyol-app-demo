@@ -350,7 +350,7 @@
   display: inline-block;
   width: 91px;
   height: 53px;
-  background: url(../img/logo_wap_v3.png) no-repeat 0 0;
+  background: url(../img/ap_lg.png) no-repeat 0 0;
   background-size: 100% 100%;
   margin-top: 13px;
   outline: none;
@@ -977,7 +977,7 @@
     margin-top: 0;
   }
   .header-v4 .logo a {
-    width: 45px;
+    width: 70px;
     height: 27px;
     vertical-align: top;
   }
@@ -1157,7 +1157,7 @@
     margin-top: 10px;
   }
   .header-v4 .logo a {
-    width: 91px;
+    width: 137px;
     height: 53px;
   }
   .burger div {
