@@ -310,7 +310,7 @@
       </div>
       <!--精选  end-->
       <p id="loadnextpage">
-        <span onclick="loadnextpage()" id="more_bt" class="more_bt" style="cursor: pointer; width: 160px;" data-disabled="true">加载更多…</span>
+        <span id="more_bt" class="more_bt" style="cursor: pointer; width: 160px;" data-disabled="true">加载更多…</span>
       </p>
     </div>
   </div>
@@ -339,20 +339,6 @@
         } else {
           $("#chnfloat").removeClass("chnfloat");
         }
-
-      });
-
-    $(document).ready(
-      function() {
-        window.onscroll = function() {
-          $("#more_bt").attr("data-disabled", "true");
-          var sts = document.documentElement.scrollTop ||
-            document.body.scrollTop;
-          ppstore.setItem("indexscrollTop", sts);
-        }
-
-        getPics = setInterval("getImg()", 2000);
-
       });
   </script>
 </body>

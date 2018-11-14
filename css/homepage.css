@@ -270,8 +270,7 @@ body{ font-family: "微软雅黑"; padding: 0; margin: 0; border: 0; }
 .searchresult_item .item_right .item_right_footer>div{float: left;margin-right: 0.15rem;color: #666;font-size: 0.15rem;line-height: 0.38rem;    height: 0.38rem;}
 .searchresult_item .item_right .footer_name{width: 1.88rem;text-align: right;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
 .searchresult_item .item_right .item_icon{display: inline-block;width: 14px;height: 14px;margin-right: 5px;margin-top: 0.05rem;    vertical-align: sub;background-size: 14px;}
-.searchresult_item .item_right .icon_clock{background-image: url(//file.thepaper.cn/wap/v3/img/ydw_time.png);}
-.searchresult_item .item_right .icon_talk{background-image: url(//file.thepaper.cn/wap/v3/img/ydw_comm.png);}
+
 .searchresult_item .item_left .label_common .icon_topic {
     background: url(//file.thepaper.cn/wap/v3/img/search_topic.png) no-repeat;
     background-size: 12px;display: inline-block;width: 12px;height: 12px;z-index: 10;margin: 2px 5px;vertical-align: middle;
